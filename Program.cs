@@ -7,9 +7,9 @@ Console.WriteLine("Введите стороны треугольника");
 string a=Console.ReadLine();
 string b=Console.ReadLine();    
 string c=Console.ReadLine();
-uint A=uint.Parse(a);
-uint B=uint.Parse(b);
-uint C=uint.Parse(c);
+int A=int.Parse(a);
+int B=int.Parse(b);
+int C=int.Parse(c);
 
 
 one.Perimeter();
